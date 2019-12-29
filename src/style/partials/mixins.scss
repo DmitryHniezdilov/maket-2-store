@@ -1,0 +1,10 @@
+@mixin font($font-main, $font-size, $color-primary) {
+    font-family: $font-main;
+    font-size: $font-size;
+    color: $color-primary;
+}
+
+@mixin hover($color-hover) {
+    color: $color-hover;
+    transition: all .6s;
+}

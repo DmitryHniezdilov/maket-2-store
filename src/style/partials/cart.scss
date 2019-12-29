@@ -1,0 +1,48 @@
+.cart {
+    padding-right: 10px;
+    font-size: 0;
+    text-decoration: none;
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: $color-Eucalyptus;
+        font-size: 0;
+    }
+
+    &__iconWrap {
+        font-size: 0;
+    }
+
+    &__icon {
+        object-fit: cover;
+    }
+
+    &__numWrap {
+        position: absolute;
+        top: 0;
+        right: -10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid $color-Eucalyptus;
+        background-color: $color-primary;
+    }
+
+    &__num {
+        text-transform: uppercase;
+        font-weight: 600;
+        @include font($font-main, 10px, rgb(7, 45, 22));
+
+
+
+    }
+}

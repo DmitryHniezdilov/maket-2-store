@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+//*:focus {
+//    outline: none;
+//    outline-offset: 0;
+//    box-shadow: 0 0 2px 2px rgb(102, 102, 102);
+//}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    background: $color-primary;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.inner {
+    max-width: 1240px;
+    margin: 0 5%;
+
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}

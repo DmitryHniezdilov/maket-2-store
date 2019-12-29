@@ -1,0 +1,32 @@
+.nav {
+
+    &__list {
+        margin: -20px -20px;
+        display: inline-flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        Align-items: normal;
+        list-style: none;
+    }
+
+    &__item {
+        padding: 20px 20px;
+        //text-align: center;
+        list-style: none;
+    }
+
+    &__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        @include font($font-main, 18px, $color-Tundora);
+
+        &:hover {
+            color: $color-Eucalyptus;
+        }
+    }
+}
+
+
+
+

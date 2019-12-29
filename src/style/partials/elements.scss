@@ -1,0 +1,146 @@
+//.btn {
+//    display: inline-block;
+//    margin-top: 20px;
+//    padding: 10px 50px;
+//    border-radius: 20px;
+//    background-color: $color-btn;
+//    text-decoration: none;
+//    cursor: pointer;
+//    @include font($font-main, $font-size--regular, $color-primary);
+//
+//    @media screen and (min-width: $screen-md) {
+//        padding: 10px 25px;
+//    }
+//
+//    &__subhint {
+//        display: inline-block;
+//        margin-top: 20px;
+//        padding: 10px 70px;
+//        border-radius: 20px;
+//        text-decoration: none;
+//        background-color: transparent;
+//        border: solid 2px $color-btn;
+//        cursor: pointer;
+//        @include font($font-main, $font-size--regular, $color-btn);
+//
+//        @media screen and (min-width: $screen-sm) {
+//            margin-top: 25px;
+//        }
+//
+//        @media screen and (min-width: $screen-md) {
+//            padding: 10px 30px;
+//        }
+//
+//        &:hover {
+//            color: rgb(220, 60, 70);
+//            border: solid 2px rgb(220, 60, 70);
+//            transition: .6s;
+//        }
+//
+//        &:focus {
+//            outline: none;
+//        }
+//    }
+//
+//    &__submit {
+//        width: 100%;
+//        max-width: 280px;
+//
+//        @media screen and (min-width: $screen-sm) {
+//            padding: 10px 20px;
+//        }
+//
+//    }
+//
+//    &--sm {
+//        margin: 0 0 15px;
+//        padding: 5px 14px;
+//        border-radius: 15px;
+//        @include font($font-main, 10px, $color-primary);
+//        text-transform: uppercase;
+//    }
+//
+//    &--mt0 {
+//        @media screen and (min-width: $screen-sm) {
+//            margin-top: 0;
+//        }
+//    }
+//
+//}
+//
+//.btn--hover {
+//    &:hover {
+//        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), rgb(255, 78, 80);
+//        transition: .6s;
+//    }
+//}
+
+.input {
+    display: inline-block;
+    padding: 0 50px 0 15px;
+    height: 40px;
+    width: 260px;
+    border: 1px solid rgb(198, 198, 198);
+    transition: padding .4s; /*for animation*/
+    @include font($font-secondary, $font-size--regular, $color-secondary);
+
+    &:focus {
+        border: 1px solid rgb(198, 198, 198);
+        box-shadow: 0 1px 0 0 rgb(198, 198, 198);
+        outline: none;
+    }
+
+    &__icon {
+        background: transparent url(../img/input_icon.png) no-repeat 92% center;
+    }
+}
+
+//.js-inputError::placeholder {
+//    color: $color-btn;
+//}
+//
+//.js-errorRequest {
+//    margin-top: 20px;
+//}
+
+//.grid {
+//    display: flex;
+//    flex-flow: row wrap;
+//    text-align: center;
+//    justify-content: space-around;
+//    margin: 0 -15px;
+//
+//    @media screen and (min-width: $screen-md) {
+//        text-align: left;
+//    }
+//
+//    .col {
+//        flex: 0 0 100%;
+//        padding: 0 15px;
+//        max-width: 410px;
+//
+//        @media screen and (min-width: $screen-md) {
+//            flex: 0 0 25%;
+//            padding: 0 15px;
+//
+//            &:last-child {
+//                text-align: right;
+//            }
+//        }
+//
+//        &--mirror {
+//            flex: 0 0 auto;
+//
+//        }
+//
+//    }
+//
+//    .col + .col {
+//        margin-top: 15px;
+//
+//        @media screen and (min-width: $screen-md) {
+//            margin-top: 0;
+//        }
+//
+//    }
+//}

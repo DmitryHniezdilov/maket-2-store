@@ -1,0 +1,26 @@
+.menu {
+
+    &__list {
+        display: inline-block;
+    }
+
+    &__item {
+        display: inline-block;
+        list-style: none;
+    }
+
+    &__link {
+        display: inline-block;
+        height: 28px;
+        padding: 0 23px;
+        text-decoration: none;
+        line-height: 28px;
+        @include font($font-main, $font-size--regular, $color-primary);
+
+        &:hover {
+            background-color: #4e4e4e;
+            transition: all .6s ease;
+        }
+    }
+
+}

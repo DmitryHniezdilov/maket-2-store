@@ -1,0 +1,76 @@
+.user {
+    width: 170px;
+    height: 28px;
+    background-color: $color-Eucalyptus;
+    padding-left: 10px;
+    line-height: 14px;
+
+    &__logo {
+        position: relative;
+        top: 2px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    &__icon {
+        -o-object-fit: scale-down;
+        object-fit: scale-down;
+    }
+
+    &__title {
+        @include font($font-main, $font-size--regular, $color-primary);
+        font-weight: 300;
+        line-height: 28px;
+    }
+
+    &-right {
+        float: right;
+    }
+
+    &-drop {
+        position: relative;
+
+        &__wrap {
+            visibility: hidden;
+            opacity: 0;
+            transition: all .6s ease;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: inherit;
+            padding-top: 1px;
+            background-color: $color-Eucalyptus;
+        }
+
+        &__menu {
+            padding: 10px;
+
+        }
+
+        &__item {
+            margin-top: 5px;
+
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+
+        &__link {
+            display: inline-block;
+            @include font($font-main, $font-size--regular, $color-primary);
+            font-weight: 300;
+            text-decoration: none;
+            border-bottom: 1px dashed;
+            background-color: transparent;
+            cursor: pointer;
+        }
+
+    }
+
+}
+
+.user-drop:hover .user-drop__wrap {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}

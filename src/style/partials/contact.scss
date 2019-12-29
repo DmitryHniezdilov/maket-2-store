@@ -1,0 +1,46 @@
+.contact {
+
+    &__wrap {
+        margin: 0 -10px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__inner{
+        padding: 0 10px;
+        display: inline-flex;
+        flex-flow: column wrap;
+        position: relative;
+    }
+
+    &__text {
+        @include font($font-main, 12px, $color-GodGray);
+
+        &--bold16 {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        &--semi-bold {
+            font-weight: 600;
+        }
+    }
+
+    &__iconWrap {
+        position: absolute;
+        left: 0;
+        top: 4px;
+    }
+
+    &__icon {
+        -o-object-fit: scale-down;
+        object-fit: scale-down;
+    }
+
+    &--pl40 {
+        padding-left: 40px;
+    }
+
+}

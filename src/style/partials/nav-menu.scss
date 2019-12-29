@@ -1,0 +1,29 @@
+.nav-menu {
+    width: 100%;
+    padding: 15px 0;
+    border-top: 1px solid rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(241, 241, 241);
+    background-color: rgb(252, 252, 252);
+
+    &__inner {
+        margin: -15px -35px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__col {
+        margin: 15px 35px;
+        font-size: 0;
+    }
+
+    &__left {
+        //flex-grow: 1;
+    }
+
+    &__right {
+
+    }
+
+}
