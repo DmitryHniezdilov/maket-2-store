@@ -1,0 +1,16 @@
+.subscribe {
+    width: 100%;
+    border: 3px solid rgb(55, 55, 55);
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 25px 20px 10px;
+
+    &__text {
+        padding: 0 20px 0 10px;
+        line-height: 1.2;
+        font-weight: 600;
+        @include font($font-main, 18px, $color-primary);
+    }
+
+}
+

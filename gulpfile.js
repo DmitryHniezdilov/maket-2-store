@@ -56,8 +56,7 @@ function scss(done) {
 function js(done) {
     gulp.src([
         'src/js/slick.min.js',
-        'src/js/main.js',
-        'src/js/request.js'
+        'src/js/main.js'
 
     ])
         .pipe(concat('all.min.js'))
@@ -115,7 +114,7 @@ gulp.task('clean', function (done) {
 // Build Production Site with all updates slick
 
 // gulp.task('build', gulp.series('clean', scss, js, img));
-gulp.task('build', gulp.series('clean', scss, img));
+gulp.task('build', gulp.series('clean', scss, js, img));
 
 // Watch for all file changes during work
 

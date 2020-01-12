@@ -1,5 +1,5 @@
-//@import 'slider/slick';
-//@import 'slider/slick-theme';
+@import 'slider/slick';
+@import 'slider/slick-theme';
 @import 'partials/variables';
 @import 'partials/mixins';
 @import 'partials/common';
@@ -14,7 +14,12 @@
 @import 'partials/nav-menu';
 @import 'partials/nav';
 @import 'partials/cart';
-
-
-//@import 'partials/slick-settings';
-//@import 'partials/footer';
+@import 'partials/slider';
+@import 'partials/nav-product';
+@import 'partials/recommend';
+@import 'partials/card';
+@import 'partials/promo';
+@import 'partials/footer';
+@import 'partials/socials';
+@import 'partials/payment';
+@import 'partials/subscribe';

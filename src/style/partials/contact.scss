@@ -32,6 +32,17 @@
         position: absolute;
         left: 0;
         top: 4px;
+        height: 25px;
+        width: 25px;
+        fill: $color-Eucalyptus;
+
+        &--footer {
+            top: 5px;
+            height: 20px;
+            width: 17px;
+            fill: rgba(255, 255, 255, 0.4);
+
+        }
     }
 
     &__icon {
@@ -42,5 +53,28 @@
     &--pl40 {
         padding-left: 40px;
     }
+
+    &__list {
+        flex: 0 0 60%;
+    }
+
+    &__item {
+        position: relative;
+        margin-bottom: 20px;
+        padding-left: 50px;
+        @include font($font-main, 16px, $color-primary);
+        list-style: none;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &--b18 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+
+
 
 }

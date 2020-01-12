@@ -1,0 +1,15 @@
+.socials {
+
+    &__link {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        border-radius: 50%;
+        font-size: 0;
+
+        &:hover .socials__bcg {
+            fill: rgba(255, 255, 255, 0.4);
+        }
+    }
+}

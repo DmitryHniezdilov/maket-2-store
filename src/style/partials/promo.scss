@@ -1,0 +1,88 @@
+.promo {
+
+    margin-top: 60px;
+
+    &__top {
+        border-bottom: 2px solid rgb(238, 238, 238);
+    }
+
+    &__list {
+        margin: 0 -30px;
+        text-align: left;
+    }
+
+    &__item {
+        display: inline-block;
+        list-style: none;
+        font-size: 0;
+    }
+
+    &__link {
+        display: inline-block;
+        padding: 15px 30px;
+        font-weight: 600;
+        text-decoration: none;
+        @include font($font-main, 24px, $color-Silver);
+
+        &:hover {
+            position: relative;
+            color: $color-Black;
+            transition: all .6s ease;
+
+            &:after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 30px;
+                width: calc( 100% - 30px );
+                height: 2px;
+                background-color: $color-Eucalyptus;
+            }
+        }
+    }
+
+    .js-active .promo__link {
+        position: relative;
+        color: $color-Black;
+        transition: all .6s ease;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 30px;
+            width: calc( 100% - 30px );
+            height: 2px;
+            background-color: $color-Eucalyptus;
+        }
+    }
+
+    &__content {
+        padding: 50px 0 60px;
+
+    }
+
+    &__pane {
+        display: none;
+
+        &.js-active {
+            display: block;
+        }
+    }
+
+    &__row {
+        margin: -12px -12px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;
+        align-items: normal;
+    }
+
+    &__col {
+        padding: 12px 12px;
+        flex: 0 0 16.666%;
+        font-size: 0;
+    }
+
+
+}

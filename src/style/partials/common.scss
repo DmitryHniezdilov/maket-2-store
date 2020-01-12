@@ -18,12 +18,15 @@
 }
 
 .center {
-    margin: 0 auto;
+    margin: 0 5%;
+
+    @media screen and (min-width: 1239px) {
+        margin: 0 auto;
+    }
 }
 
 .inner {
     max-width: 1240px;
-    margin: 0 5%;
 
 }
 
@@ -33,4 +36,12 @@
 
 .mt20 {
     margin-top: 20px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.content {
+
 }

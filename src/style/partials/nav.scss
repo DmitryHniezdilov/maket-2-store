@@ -1,7 +1,7 @@
 .nav {
 
     &__list {
-        margin: -20px -20px;
+        margin: -15px -15px;
         display: inline-flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
@@ -10,8 +10,7 @@
     }
 
     &__item {
-        padding: 20px 20px;
-        //text-align: center;
+        padding: 15px 15px;
         list-style: none;
     }
 
@@ -23,10 +22,134 @@
 
         &:hover {
             color: $color-Eucalyptus;
+            transition: all .6s ease;
+        }
+    }
+
+    &-footer {
+        flex: 0 0 40%;
+
+        &__item {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            list-style: none;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &::before {
+                content: '';
+                display: inline-block;
+                position: relative;
+                top: -2px;
+                left: -10px;
+                height: 8px;
+                width: 6px;
+                background-image: url(../img/nav-drop__list-icon.png);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &__link {
+            @include font($font-main, 16px, $color-primary);
+            text-decoration: none;
+
+            &:hover {
+                color: $color-Eucalyptus;
+                transition: all .6s ease;
+            }
+        }
+    }
+
+    &-drop {
+
+        &__wrap {
+            visibility: hidden;
+            opacity: 0;
+            transition: all .6s ease;
+            position: absolute;
+            top: calc( 100% - 15px );
+            left: 0;
+            background-color: $color-primary;
+            width: calc( 100vw - 4% );
+            height: auto;
+            padding: 80px 60px 60px;
+            margin: 0 2%;
+        }
+
+        &__row {
+            margin: -15px -15px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: left;
+        }
+
+        &__col {
+            padding: 15px 15px;
+            font-size: 0;
+            width: 14.285%;
+        }
+
+        &__title {
+            display: inline-block;
+            width: 100%;
+            padding-bottom: 8px;
+            margin-bottom: 5px;
+            @include font($font-main, $font-size--regular, $color-MineShaft);
+            font-weight: 600;
+            border-bottom: 1px solid $color-Seashell;
+        }
+
+        &__list {
+
+        }
+
+        &__item {
+            margin: 5px 0 0 10px;
+            list-style: none;
+
+            &::before{
+                content: '';
+                display: inline-block;
+                position: relative;
+                top: -2px;
+                left: -10px;
+                height: 8px;
+                width: 6px;
+                background-image: url(../img/nav-drop__list-icon.png);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &__link {
+            display: inline-block;
+            @include font($font-main, $font-size--regular, $color-MineShaft);
+            text-decoration: none;
+            background-color: transparent;
+            //word-break: break-all;
+
+            &:hover {
+                color: $color-Eucalyptus;
+                transition: all .6s ease;
+            }
+
+            &--soon {
+                &:after {
+                    content: "(скоро!)";
+                    text-transform: uppercase;
+                    @include font($font-main, $font-size--regular, #ff0000);
+                }
+            }
         }
     }
 }
 
-
+.nav-drop:hover .nav-drop__wrap {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1002;
+}
 
 

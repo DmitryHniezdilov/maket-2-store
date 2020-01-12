@@ -1,0 +1,26 @@
+.recommend {
+
+    margin-top: 100px;
+
+    &__title, h2 {
+        text-transform: uppercase;
+        font-weight: 600;
+        @include font($font-main, 24px, $color-Black);
+    }
+
+    &__row {
+        margin: 15px -15px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;
+        align-items: stretch;
+    }
+
+    &__col {
+        padding: 15px 15px;
+        flex: 0 0 20%;
+        font-size: 0;
+    }
+}
+
+

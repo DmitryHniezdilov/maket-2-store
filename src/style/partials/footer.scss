@@ -1,0 +1,79 @@
+.footer {
+    width: 100%;
+    position: relative;
+    background-color: rgb(30, 30, 30);
+    background-image: url(../img/footer-bcg.jpg);
+    background-size: calc( 50% - 60px ) 100%;
+    background-repeat: no-repeat;
+
+    &__inner {
+        padding: 50px 0 15px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    &__left {
+        display: flex;
+        flex-flow: column wrap;
+        flex: 0 0 50%;
+        align-items: left;
+        padding-right: 20px;
+        z-index: 2;
+    }
+
+    &__right {
+        display: flex;
+        flex-flow: column wrap;
+        flex: 0 0 50%;
+    }
+
+    &__right-inner {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    &__logoWrap {
+        margin-bottom: 40px;
+    }
+
+    &__logo {
+
+    }
+
+    &__desc {
+        max-width: 465px;
+        line-height: 1.2;
+        @include font($font-main, 16px, $color-primary);
+        text-align: left;
+    }
+
+    &__socials {
+        margin: 40px 0;
+        flex: 1 0 auto;
+    }
+
+    &__copy {
+        align-items: baseline;
+        line-height: 1.2;
+        @include font($font-main, $font-size--regular, $color-primary);
+    }
+
+    &__contact {
+        flex: 0 0 60%;
+        padding-right: 20px;
+        margin: 0;
+    }
+
+    &__nav {
+        flex: 0 0 40%;
+        padding-right: 20px;
+    }
+
+    &__dev {
+        margin-bottom: 20px;
+        line-height: 1.2;
+        @include font($font-main, $font-size--regular, rgba(255, 255, 255, 0.4));
+        text-align: right;
+    }
+
+}
