@@ -5,6 +5,9 @@
     border: 0;
 }
 
+::selection {background: rgba(33, 154, 81, 0.5);}
+::-moz-selection {background: rgba(33, 154, 81, 0.5);}
+
 //*:focus {
 //    outline: none;
 //    outline-offset: 0;

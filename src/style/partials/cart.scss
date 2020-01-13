@@ -13,6 +13,11 @@
         border-radius: 50%;
         background-color: $color-Eucalyptus;
         font-size: 0;
+
+        &:hover {
+            background-color: rgb(28, 142, 73);
+            transition: all .6s ease;
+        }
     }
 
     &__iconWrap {

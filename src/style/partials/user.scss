@@ -7,7 +7,9 @@
 
     &__logo {
         position: relative;
-        top: 2px;
+        top: 3px;
+        width: 16px;
+        height: 16px;
         display: inline-block;
         margin-right: 10px;
     }
@@ -63,6 +65,11 @@
             border-bottom: 1px dashed;
             background-color: transparent;
             cursor: pointer;
+
+            &:hover {
+                color: $color-MineShaft;
+                transition: all .6s ease;
+            }
         }
     }
 

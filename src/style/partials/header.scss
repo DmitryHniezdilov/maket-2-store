@@ -4,9 +4,6 @@
     &__inner {
         margin: 0 -10px;
         padding: 30px 0;
-        //display: inline-block;
-        //vertical-align: top;
-        //font-size: 0;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
@@ -14,7 +11,6 @@
     }
 
     &__col {
-        //display: inline-block;
         padding: 0 10px;
         font-size: 0;
             }
@@ -27,22 +23,10 @@
         display: block;
         margin-left: 360px;
 
-        //&-inner {
-        //    margin: 0 -10px;
-        //    display: flex;
-        //    flex-flow: row wrap;
-        //    justify-content: space-between;
-        //    align-items: center;
-        //}
     }
-
-    //&__form {
-    //    display: inline-block;
-    //}
 
     &-contact {
         flex-grow: 1;
     }
-
 
 }
