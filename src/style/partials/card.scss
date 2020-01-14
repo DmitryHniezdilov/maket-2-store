@@ -22,13 +22,15 @@
         height: 100%;
         text-decoration: none;
 
-        &-top {
-            flex-grow: 1;
-        }
+        //&-top {
+        //    flex-grow: 1;
+        //    font-size: 0;
+        //}
 
-        &-bottom {
-            //order: 1;
-        }
+        //&-bottom {
+        //    //order: 1;
+        //    font-size: 0;
+        //}
     }
 
     &__img {
@@ -37,6 +39,7 @@
     }
 
     &__title {
+        flex-grow: 1;
         line-height: 1.2;
         @include font($font-main, 18px, $color-Black);
 
