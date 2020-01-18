@@ -1,8 +1,8 @@
 .nav {
 
     &__list {
-        margin: -15px -15px;
-        display: inline-flex;
+        margin: 0 -15px;
+        display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
         Align-items: normal;
@@ -10,7 +10,7 @@
     }
 
     &__item {
-        padding: 15px 15px;
+        padding: 30px 15px;
         list-style: none;
     }
 
@@ -19,10 +19,10 @@
         text-transform: uppercase;
         font-weight: 600;
         @include font($font-main, 18px, $color-Tundora);
+        transition: all .6s ease;
 
         &:hover {
             color: $color-Eucalyptus;
-            transition: all .6s ease;
         }
     }
 
@@ -54,10 +54,10 @@
         &__link {
             @include font($font-main, 16px, $color-primary);
             text-decoration: none;
+            transition: all .6s ease;
 
             &:hover {
                 color: $color-Eucalyptus;
-                transition: all .6s ease;
             }
         }
     }
@@ -69,7 +69,7 @@
             opacity: 0;
             transition: all .6s ease;
             position: absolute;
-            top: calc( 100% - 15px );
+            top: 100%;
             left: 0;
             background-color: $color-primary;
             width: calc( 100vw - 4% );
@@ -100,6 +100,13 @@
             @include font($font-main, $font-size--regular, $color-MineShaft);
             font-weight: 600;
             border-bottom: 1px solid $color-Seashell;
+            &--soon {
+                &:after {
+                    content: "(скоро!)";
+                    text-transform: uppercase;
+                    @include font($font-main, $font-size--regular, #ff0000);
+                }
+            }
         }
 
         &__list {

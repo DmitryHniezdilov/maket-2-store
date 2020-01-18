@@ -7,6 +7,7 @@
         margin-right: 10px;
         border-radius: 50%;
         font-size: 0;
+        transition: all .6s ease;
 
         &:hover .socials__bcg {
             fill: rgba(255, 255, 255, 0.4);

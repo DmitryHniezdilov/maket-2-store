@@ -8,6 +8,7 @@
     cursor: pointer;
     @include font($font-main, 16px, $color-primary);
     box-shadow: 0 3px 0 0 rgba(18, 117, 57, 1);
+    transition: all .6s ease;
 
     &:before {
         position: absolute;
@@ -29,68 +30,58 @@
     }
 
     &:hover {
-
         background-color: rgb(28, 142, 73);
-        transition: all .6s ease;
+    }
+}
 
+.btn-add {
+    margin-top: 30px;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 300;
+    @include font($font-main, 12px, $color-Black);
+    transition: all 1s ease;
+
+    &:hover {
+        font-weight: 600;
     }
 
-    &--basket {
-
+    &:hover &__symb {
+        transform: rotate(360deg);
+        transform-origin: center center;
+        transition: all 1s ease;
     }
 
-    &__add {
-        display: inline-block;
+    &__symb {
         position: relative;
-        background-color: transparent;
-        cursor: pointer;
-        font-weight: 300;
-        @include font($font-main, 12px, $color-Black);
+        display: inline-block;
+        margin-right: 15px;
+        width: 14px;
+        height: 12px;
+        top: 1px;
 
-        &:hover {
-            font-weight: 600;
-        }
-
-        &:hover &--symb {
-            transform: rotate(360deg);
-            transform-origin: center center;
-            transition: all 1s ease;
-        }
-
-        &--symb {
-            position: relative;
-            display: inline-block;
-            margin-right: 15px;
-            width: 14px;
+        &:before, &:after {
+            content: "";
+            position: absolute;
+            left: 7px;
+            top: 0;
+            width: 7px;
             height: 12px;
-            top: 1px;
+            background: #f05f55;
+            border-radius: 7px 7px 0 0;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+        }
 
-            &:before, &:after {
-                content: "";
-                position: absolute;
-                left: 7px;
-                top: 0;
-                width: 7px;
-                height: 12px;
-                background: #f05f55;
-                border-radius: 7px 7px 0 0;
-                transform: rotate(-45deg);
-                transform-origin: 0 100%;
-            }
-
-            &:after {
-                left: 0;
-                transform: rotate(45deg);
-                transform-origin: 100% 100%;
-            }
+        &:after {
+            left: 0;
+            transform: rotate(45deg);
+            transform-origin: 100% 100%;
         }
     }
 }
-    //
-//    @media screen and (min-width: $screen-md) {
-//        padding: 10px 25px;
-//    }
-//
 
 .input {
     display: inline-block;
@@ -99,6 +90,7 @@
     width: 260px;
     border: 1px solid rgb(198, 198, 198);
     @include font($font-secondary, $font-size--regular, $color-secondary);
+    transition: all 1s ease;
 
     &:focus {
         border: 1px solid $color-Eucalyptus;
@@ -128,10 +120,11 @@
         background: transparent;
         font-weight: 300;
         @include font($font-secondary, $font-size--regular, rgb(215, 215, 215));
+        transition: all 1s ease;
 
-         &:hover{
+        &:hover {
             border: 1px solid $color-Eucalyptus;
-             border-right: none;
+            border-right: none;
             outline: none;
         }
 
@@ -150,10 +143,10 @@
         cursor: pointer;
         line-height: 40px;
         @include font($font-main, $font-size--regular, $color-primary);
+        transition: all .6s ease;
 
         &:hover {
             background-color: rgb(28, 142, 73);
-            transition: all .6s ease;
         }
     }
 }
@@ -175,7 +168,7 @@
 
     &__input + &__label {
         position: relative;
-        text-transform:none;
+        text-transform: none;
         cursor: pointer;
     }
 
@@ -203,5 +196,4 @@
         transform: rotate(-50deg);
         color: $color-Eucalyptus;
     }
-
 }

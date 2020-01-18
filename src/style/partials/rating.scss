@@ -1,0 +1,48 @@
+$rating-fill: #dfdfdf;
+$rating-fill-hov: #facd46;
+
+.rating {
+
+    &__elem {
+        display: inline-block;
+        vertical-align: middle;
+        width: 15px;
+        height: 15px;
+        margin: 0 10px 0 0;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        svg {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            color: $rating-fill;
+            fill: $rating-fill;
+        }
+    }
+}
+
+.rating--no-bd {
+    &[data-rating^="1"] .rating__elem:first-child,
+    &[data-rating^="2"] .rating__elem:nth-child(-n+2),
+    &[data-rating^="3"] .rating__elem:nth-child(-n+3),
+    &[data-rating^="4"] .rating__elem:nth-child(-n+4),
+    &[data-rating="5"] .rating__elem:nth-child(-n+5) {
+        use {
+            color: $rating-fill-hov;
+            fill: $rating-fill-hov;
+        }
+    }
+
+    &[data-rating="0.5"] .rating__elem:nth-child(5n+1),
+    &[data-rating="1.5"] .rating__elem:nth-child(5n+2),
+    &[data-rating="2.5"] .rating__elem:nth-child(5n+3),
+    &[data-rating="3.5"] .rating__elem:nth-child(5n+4),
+    &[data-rating="4.5"] .rating__elem:nth-child(5n+5) {
+        use {
+            color: $rating-fill-hov;
+        }
+    }
+}

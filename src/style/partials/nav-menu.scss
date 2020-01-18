@@ -1,35 +1,14 @@
 .nav-menu {
     width: 100%;
-    padding: 15px 0;
     position: relative;
     border-top: 1px solid rgb(241, 241, 241);
     border-bottom: 1px solid rgb(241, 241, 241);
     background-color: rgb(252, 252, 252);
 
     &__inner {
-        margin: -15px -35px;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
         align-items: center;
     }
-
-    &__col {
-        margin: 15px 35px;
-        font-size: 0;
-
-        &:last-child {
-            margin-right: 45px;
-
-        }
-    }
-
-    &__left {
-
-    }
-
-    &__right {
-
-    }
-
 }

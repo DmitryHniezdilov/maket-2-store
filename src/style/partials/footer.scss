@@ -1,5 +1,6 @@
 .footer {
     width: 100%;
+    min-width: 1260px;
     position: relative;
     background-color: rgb(30, 30, 30);
     background-image: url(../img/footer-bcg.jpg);
@@ -7,7 +8,7 @@
     background-repeat: no-repeat;
 
     &__inner {
-        padding: 50px 0 15px;
+        padding: 50px 10px 15px;
         display: flex;
         flex-flow: row wrap;
     }
@@ -18,13 +19,13 @@
         flex: 0 0 50%;
         align-items: left;
         padding-right: 20px;
-        z-index: 2;
     }
 
     &__right {
         display: flex;
         flex-flow: column wrap;
         flex: 0 0 50%;
+        margin-top: 20px;
     }
 
     &__right-inner {
@@ -70,7 +71,7 @@
     }
 
     &__dev {
-        margin-bottom: 20px;
+        margin: 30px 0 20px;
         line-height: 1.2;
         @include font($font-main, $font-size--regular, rgba(255, 255, 255, 0.4));
         text-align: right;

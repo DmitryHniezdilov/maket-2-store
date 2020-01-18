@@ -22,11 +22,14 @@
     &__right {
         display: block;
         margin-left: 360px;
-
     }
 
     &-contact {
         flex-grow: 1;
+    }
+
+    &__form {
+        margin-top: 20px;
     }
 
 }
