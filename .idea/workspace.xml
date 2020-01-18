@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d708f7-bee5-47e1-b814-c00b018a217d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/style/partials/rating.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/rating.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/rating.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/card.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/partials/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/elements.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/nav-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/nav-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/nav-product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/nav-product.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/partials/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/payment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/payment.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/promo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/promo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/socials.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/socials.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/subscribe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/subscribe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/user.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/user.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/slider/slick-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/slider/slick-theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/partials/top.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/top.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +31,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="32382">
-                  <caret line="1536" column="76" lean-forward="true" selection-start-line="1536" selection-start-column="76" selection-end-line="1536" selection-end-column="76" />
+                <state relative-caret-position="90">
+                  <caret line="4" column="90" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -105,8 +87,8 @@
           <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
+                <state relative-caret-position="18">
+                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
                 </state>
               </provider>
             </entry>
@@ -114,26 +96,26 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/style/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
+                <state relative-caret-position="361">
                   <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="common.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="common.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/style/partials/common.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+                <state relative-caret-position="216">
+                  <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="variables.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/style/partials/variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="35" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="35" />
+                <state relative-caret-position="234">
+                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
                 </state>
               </provider>
             </entry>
@@ -154,8 +136,26 @@
           <file leaf-file-name="elements.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/style/partials/elements.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+                <state relative-caret-position="119">
+                  <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="top.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/top.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="54">
+                  <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="nav.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/nav.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="18">
+                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
                 </state>
               </provider>
             </entry>
@@ -169,11 +169,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="slider.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="slider.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/style/partials/slider.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="295">
-                  <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+                <state relative-caret-position="209">
+                  <caret line="108" selection-start-line="108" selection-end-line="108" selection-end-column="22" />
                   <folding>
                     <element signature="e#699#1574#2" expanded="true" />
                     <element signature="e#1732#2607#2" expanded="true" />
@@ -208,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/style/partials/recommend.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/variables.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/top.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/cart.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/menu.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/user.scss" />
@@ -221,16 +220,17 @@
         <option value="$PROJECT_DIR$/src/style/partials/subscribe.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/contact.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/elements.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/nav.scss" />
         <option value="$PROJECT_DIR$/src/style/main.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/rating.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/card.scss" />
         <option value="$PROJECT_DIR$/src/style/slider/slick-theme.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/footer.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/slider.scss" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/style/partials/common.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/footer.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/slider.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/top.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/nav.scss" />
       </list>
     </option>
   </component>
@@ -384,12 +384,12 @@
       <workItem from="1579107705245" duration="12748000" />
       <workItem from="1579195741031" duration="10724000" />
       <workItem from="1579282575659" duration="1949000" />
-      <workItem from="1579344203220" duration="2686000" />
+      <workItem from="1579344203220" duration="4814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253182000" />
+    <option name="totallyTimeSpent" value="255310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -404,7 +404,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="3" sideWeight="0.50143677" side_tool="true" weight="0.11566424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49702185" visible="true" weight="0.26353276" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49702185" visible="true" weight="0.3988604" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32980832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -512,24 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/user.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/top.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -589,20 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/slick.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -631,24 +603,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/slider/slick-theme.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -659,10 +617,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32382">
-          <caret line="1536" column="76" lean-forward="true" selection-start-line="1536" selection-start-column="76" selection-end-line="1536" selection-end-column="76" />
+        <state relative-caret-position="90">
+          <caret line="4" column="90" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -713,36 +699,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/footer.scss">
+    <entry file="file://$PROJECT_DIR$/src/style/partials/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="216">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/elements.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="119">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/slider.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="209">
+          <caret line="108" selection-start-line="108" selection-end-line="108" selection-end-column="22" />
           <folding>
             <element signature="e#699#1574#2" expanded="true" />
             <element signature="e#1732#2607#2" expanded="true" />
             <element signature="e#4861#5935#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/top.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
