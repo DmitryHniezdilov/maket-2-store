@@ -10,9 +10,12 @@
 
 .wrapper {
     width: 100%;
-    min-width: 1260px;
     overflow: scroll;
     background: $color-primary;
+
+    @media screen and (max-width: 1261px) {
+        width: 1260px;
+    }
 }
 
 .center {
