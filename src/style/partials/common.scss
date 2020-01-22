@@ -10,7 +10,8 @@
 
 .wrapper {
     width: 100%;
-    overflow: scroll;
+    min-width: 1260px;
+    overflow: visible;
     background: $color-primary;
 }
 
