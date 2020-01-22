@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5d708f7-bee5-47e1-b814-c00b018a217d" name="Default" comment="">
+    <list default="true" id="f5d708f7-bee5-47e1-b814-c00b018a217d" name="Default" comment="viewport">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/partials/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/nav-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/nav-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/nav-product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/nav-product.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +111,14 @@
       <workItem from="1579344203220" duration="7198000" />
       <workItem from="1579374698005" duration="1027000" />
     </task>
+    <task id="LOCAL-00001" summary="viewport">
+      <created>1579721317355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579721317355</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,5 +134,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="viewport" />
+    <option name="LAST_COMMIT_MESSAGE" value="viewport" />
   </component>
 </project>
