@@ -11,7 +11,7 @@
 .wrapper {
     width: 100%;
     max-width: 1920px;
-    overflow: scroll;
+    overflow: auto;
     background: $color-primary;
 
     @media screen and (max-width: 1261px) {
