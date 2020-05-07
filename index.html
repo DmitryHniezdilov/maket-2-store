@@ -94,9 +94,10 @@
                     </a>
                 </div>
                 <div class="header__col">
-                    <form id="form-search" class="header__form">
-                        <input class="input input__icon" id="search" name="search" title="Поиск продуктов"
-                               placeholder="Поиск..." required type="text" minlength="3" maxlength="20">
+
+                    <form id="form-search" class="header__form search-group" action="/" method="post">
+                        <input class="search-group__input" id="search" name="search" title="Поиск продуктов" placeholder="Поиск..." required type="text" minlength="3" maxlength="40">
+                        <button type="submit" class="search-group__btn" title="Поиск" name="submit"></button>
                     </form>
                 </div>
                 <div class="header__col header-contact contact">

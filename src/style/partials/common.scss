@@ -10,9 +10,9 @@
 
 .wrapper {
     width: 100%;
-    max-width: 1920px;
-    overflow: auto;
+    overflow: visible;
     background: $color-primary;
+    margin: 0 auto;
 
     @media screen and (max-width: 1261px) {
         width: 1260px;
